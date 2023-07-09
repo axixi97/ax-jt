@@ -9,3 +9,4 @@ function isIDCard(idcard) {
   return reg.test(idcard);
 }
 module.exports = isIDCard;
+module.exportsRegErr = isIdCard("40011320050501009X");
